@@ -31,7 +31,7 @@ const setdata=(e)=>{
       
       e.preventDefault();
       const {name,email,age,mobile,work,addr,desc}=inpval;
-      const res=await fetch("http://localhost:88n00/register",{
+      const res=await fetch("http://localhost:8800/register",{
         method:"POST",
         headers:{
           "Content-Type":"application/json"
