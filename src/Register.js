@@ -31,7 +31,7 @@ const setdata=(e)=>{
       
       e.preventDefault();
       const {name,email,age,mobile,work,addr,desc}=inpval;
-      const res=await fetch("https://crmbackend1.herokuapp.com/register",{
+      const res=await fetch(`https://crmbackend1.herokuapp.com/register`,{
         method:"POST",
         headers:{
           "Content-Type":"application/json"
