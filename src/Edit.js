@@ -55,7 +55,7 @@ const updateuser = async(e)=>{
     e.preventDefault();
 
     const {name,email,age,mobile,work,addr,desc} = inpval;
-    const res2=await fetch(`http://localhost:8800/updateuser/${id}`,{
+    const res2=await fetch(`https://crmbackend1.herokuapp.com/updateuser/${id}`,{
         method: "PATCH",
         headers: {
             "Content-Type": "application/json"

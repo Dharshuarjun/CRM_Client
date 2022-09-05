@@ -11,7 +11,7 @@ console.log(getuserdata)
 
   const getdata=async(e)=>{
 
-       const res=await fetch("http://localhost:8800/getdata",{
+       const res=await fetch("https://crmbackend1.herokuapp.com/getdata",{
       method:"GET",
       headers:{
         "Content-Type":"application/json"
@@ -34,7 +34,7 @@ useEffect(()=>{
 },[]);
 
 const deleteduser=async (id)=>{
-  const res2=await fetch(`http://localhost:8800/deleteuser/${id}`,{
+  const res2=await fetch(`https://crmbackend1.herokuapp.com/deleteuser/${id}`,{
     method:"DELETE",
     headers:{
       "Content-Type":"application/json"
