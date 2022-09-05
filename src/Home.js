@@ -10,7 +10,7 @@ const Home = () => {
 console.log(getuserdata)
 
   const getdata=async(e)=>{
-       const res=await fetch(`https://crmbackend1.herokuapp.com/getdata`,{
+       const res=await fetch("https://crmbackend1.herokuapp.com/getdata",{
       method:"GET",
       headers:{
         "Content-Type":"application/json"
