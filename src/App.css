@@ -7,16 +7,70 @@
 .left_view h3,p{
   font-size: 20px;
   font-weight: 600;
+ color:blueviolet
 }
 .left_view span{
   font-size: 20px;
   font-weight: 400;
+  color:rgb(99, 73, 44);
+  font-family: cursive;
 }
 .right_view h3,p{
   font-size: 20px;
   font-weight: 600;
+  color:blueviolet;
 }
 .right_view span{
   font-size: 20px;
   font-weight: 400;
+  color:rgb(99, 73, 44);
+  font-family:cursive;
 }
+a.nav-link.name{
+font-size:30px;
+text-transform:capitalize;
+font-style: italic;
+letter-spacing:1px;
+font-weight: 600;
+color:black;
+}
+img{
+  border-radius: 3px;
+}
+.table-dark th{
+ font-weight: 600;
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
+ letter-spacing: 0.5px;
+ 
+}
+tr{
+  background: #ecebe8;
+}
+.table{
+  background: rgb(68, 159, 216);
+}
+div.right_view{
+  margin-top: 8%;
+}
+nav.navbar{
+  background: rgb(216, 68, 140);
+}
+h1{
+  font-family:sans-serif;
+  color:darkblue;
+}
+h2{
+  color:rgb(49, 21, 76);
+}
+a.nav-link.active{
+  font-size: 20px;
+  font-weight: 400;
+  font-family:sans-serif;
+  color:rgb(91, 74, 48);
+ }
+ label.form-label{
+  font-size:20px;
+  color:rgb(189, 37, 106);
+  font-family:cursive;
+ }
+

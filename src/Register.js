@@ -1,6 +1,5 @@
 import React from 'react'
-import {NavLink} from "react-router-dom";
-import { useState,useContext } from 'react';
+import { useState } from 'react';
 import { useHistory } from 'react-router-dom';
 
 
@@ -56,7 +55,7 @@ const setdata=(e)=>{
 }
   return (
     <div className="container">
-        <NavLink to="/">Home</NavLink>
+        <h2>Create New User</h2>
         <form className="mt-4">
             <div className="row">
   <div className="mb-3 col-lg-6 col-md-6 col-12">

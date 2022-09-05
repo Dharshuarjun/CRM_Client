@@ -1,5 +1,4 @@
 import React,{useState,useEffect} from 'react';
-import { NavLink } from 'react-router-dom';
 import { useParams,useHistory } from 'react-router-dom';
 
 const Edit = () => {
@@ -83,7 +82,7 @@ const updateuser = async(e)=>{
 
 return (
     <div className="container">
-    <NavLink to="/">Home2</NavLink>
+   
     <form className="mt-4">
         <div className="row">
 <div className="mb-3 col-lg-6 col-md-6 col-12">

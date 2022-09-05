@@ -54,18 +54,15 @@ const deleteduser=async (id)=>{
 
   return (
     <>
-    {/* <div className="alert alert-success alert-dismissible fade show" role="alert">
-  <strong>Success!</strong> User.
-  <button type="button" className="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-</div> */}
+  
     <div className="mt-5">
         <div className="container">
             <div className="add_btn mt-2">
-                <NavLink to="/register"className="btn btn-primary">Add data</NavLink>
+                <NavLink to="/register"className="btn btn-primary">Add New user</NavLink>
             </div>
-            <table className="table">
+            <table className="table mt-3">
   <thead>
-    <tr className="table-dark">
+    <tr className="table">
       <th scope="col">id</th>
       <th scope="col">Username</th>
       <th scope="col">Email</th>
@@ -87,8 +84,8 @@ const deleteduser=async (id)=>{
       <td>{element.work}</td>
       <td>{element.mobile}</td>
       <td className="d-flex justify-content-between">
-       <NavLink to={`view/${element._id}`}><button className="btn btn-primary"><RemoveRedEyeIcon/></button></NavLink>
-        <NavLink to ={`edit/${element._id}`}><button className="btn btn-success"><ModeEditOutlineIcon/></button></NavLink>
+       <NavLink to={`view/${element._id}`}><button className="btn btn-success"><RemoveRedEyeIcon/></button></NavLink>
+        <NavLink to ={`edit/${element._id}`}><button className="btn btn-primary"><ModeEditOutlineIcon/></button></NavLink>
         <button className="btn btn-danger" onClick={()=>deleteduser(element._id)}><DeleteIcon/></button>
       </td>
     </tr></>
